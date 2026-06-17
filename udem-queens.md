@@ -3,7 +3,7 @@ title: UdeM - Queens workshop on digital art
 ---
 
 
-# UdeM - Queens workshop on digital art
+# UdeM - Queens workshop on born-digital art
 
 ## Location and date
 
