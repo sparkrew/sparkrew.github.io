@@ -21,9 +21,13 @@ Queens: [Jennifer Kennedy](https://www.queensu.ca/art/people/jennifer-kennedy), 
 
 13.00 - 14.00: lunch
 
-14.00 - 15.00: [vulnerable media lab](https://vulnerablemedialab.ca/)
+14.00 - 15.30: [vulnerable media lab](https://vulnerablemedialab.ca/)
 
-18.30: presentations of research work at UdeM and Queens
+15.30 - 16.15: Art Humanity's code
 
-June 17, 09.00 - 12.00: prepare for future collaborations 
+16.15 - 17.00: Discussion, wrap-up
+
+# June 17
+
+09.00 - 12.00: prepare for future collaborations 
 
