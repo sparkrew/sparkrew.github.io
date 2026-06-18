@@ -29,5 +29,7 @@ Queens: [Jennifer Kennedy](https://www.queensu.ca/art/people/jennifer-kennedy), 
 
 09.00 - 10.00: Mapping and visualizing Palestinian cultural data
 
-10.00 - 12.00: prepare for future collaborations 
+10.00 - 13.00: prepare for future collaborations: 
+[NFRF - exploration](https://sshrc-crsh.canada.ca/funding-financement/nfrf-fnfr/exploration/exploration-eng.aspx), 
+[sshrc - partnership](https://sshrc-crsh.canada.ca/en/funding/opportunities/partnership-grants.aspx)
 
