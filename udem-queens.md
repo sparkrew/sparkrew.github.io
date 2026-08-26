@@ -1,9 +1,9 @@
 ---
-title: UdeM - Queens workshop on digital art
+title: UdeM - Queens workshop on digital art conservation
 ---
 
 
-# UdeM - Queens workshop on born-digital art
+# 1st UdeM - Queens workshop on born-digital art conservation
 
 ## Location and date
 
