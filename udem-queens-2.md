@@ -11,9 +11,9 @@ Université de Montréal, September 02, 2026
 
 ## Participants
 
-UdeM: 
+UdeM: [Benoit Baudry](https://softwarediversity.eu)
 
-Queens:
+Queens: [Jennifer Kennedy](https://www.queensu.ca/art/people/jennifer-kennedy), [Jeremy Heil](https://library.queensu.ca/about/staff/jeremy-heil)
 
 ## Schedule
 
