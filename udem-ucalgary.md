@@ -35,7 +35,7 @@ UCalgary: [Lorenzo de Carli](https://ldklab.github.io/), Mahdieh Abazar, Thanosh
 15:30 - 16:00: Identifying factors affecting hallucinations in AI-generated code (Reyhane Farahmand)
 
 
-# August 18
+## August 18
 
 10.00 - 11.30: Punking Up Dependency Hell (Benoit Baudry)
 
