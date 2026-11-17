@@ -1,0 +1,8 @@
+# The protocol contains answer keys and must not be public.
+Study_Protocol.pdf
+
+# Direct survey links; only FormConfig.example.gs is committed.
+apps-script/FormConfig.gs
+
+tools/node_modules/
+tools/preview-output/

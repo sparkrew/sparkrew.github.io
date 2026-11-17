@@ -1,0 +1,14 @@
+{
+  "name": "spark-consent-tools",
+  "private": true,
+  "description": "Build and preview helpers for the SPARK consent site (not deployed).",
+  "type": "module",
+  "scripts": {
+    "extract-consent": "node extract-consent.mjs",
+    "preview": "node preview-server.mjs"
+  },
+  "dependencies": {
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "4.10.38"
+  }
+}

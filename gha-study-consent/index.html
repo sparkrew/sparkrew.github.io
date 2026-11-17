@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <title>SPARK study consent | How Developers Respond to Changes in GitHub Actions</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/vendor/pdf-lib.min.js" defer></script>
+  <script type="module" src="assets/app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow">Université de Montréal · IFT 6075 · Team SPARK</p>
+      <h1>How Developers Respond to Changes in GitHub Actions</h1>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <noscript>
+      <p class="notice notice-error">This page needs JavaScript to display and sign the consent form.
+        Please enable JavaScript, or email
+        <a href="mailto:alireza.nasirianfar@umontreal.ca">alireza.nasirianfar@umontreal.ca</a> or
+        <a href="mailto:madjda.fares@umontreal.ca">madjda.fares@umontreal.ca</a>.</p>
+    </noscript>
+
+    <section id="returning" class="card" hidden>
+      <h2>You already have an assignment</h2>
+      <p>This browser already submitted a signed consent form. Please use the same assignment below rather than
+        signing again.</p>
+      <p class="token-label">Your assignment token</p>
+      <p class="token" data-token></p>
+      <div class="actions">
+        <button type="button" class="btn btn-secondary" data-copy>Copy token</button>
+        <a class="btn btn-primary" data-survey-link href="#">Continue to the questionnaire</a>
+      </div>
+      <p class="muted small">If this device is shared and you have not taken part yet, please contact one of the
+        researchers listed in the consent form.</p>
+    </section>
+
+    <div id="consent-flow" hidden>
+      <section class="card intro">
+        <h2>Step 1: Read the consent form</h2>
+        <p>Please read the participant information and consent form below. If you agree to take part, sign it at
+          the end of the page. The signed form is emailed to the two researchers, and you then receive your
+          assignment token and the link to the questionnaire (about 12–15 minutes).</p>
+        <p class="small">On a small screen, you can <a href="assets/consent.pdf" target="_blank" rel="noopener">open the
+          consent form in a new tab</a> to zoom in.</p>
+        <p class="muted small">This website does not store your name or signature. Do not enter your name, email,
+          or signature in the questionnaire.</p>
+      </section>
+
+      <section id="viewer" class="viewer" aria-label="Consent form">
+        <p class="muted" data-viewer-status>Loading the consent form…</p>
+      </section>
+      <div id="end-of-consent" aria-hidden="true"></div>
+
+      <form id="sign-form" class="card" novalidate>
+        <h2>Step 2: Sign the consent form</h2>
+        <p class="muted small" data-gate-hint>Scroll through the whole consent form to enable signing.</p>
+
+        <fieldset disabled data-sign-fields>
+          <label class="field">
+            <span>Participant name</span>
+            <input type="text" name="name" autocomplete="name" maxlength="120" required>
+          </label>
+
+          <div class="field">
+            <span id="sig-label">Signature (draw with your mouse, finger, or stylus)</span>
+            <div class="sig-box">
+              <canvas id="sig-pad" aria-labelledby="sig-label" role="img"></canvas>
+              <button type="button" class="btn btn-link sig-clear" data-sig-clear>Clear</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <span>Date (Montreal time)</span>
+            <output data-date></output>
+          </div>
+
+          <label class="check">
+            <input type="checkbox" name="agree" required>
+            <span>I have read and understood the participant information above, including the Google Forms
+              data-hosting statement, and I voluntarily agree to participate in this survey.</span>
+          </label>
+
+          <label class="hp" aria-hidden="true">Website
+            <input type="text" name="website" tabindex="-1" autocomplete="off">
+          </label>
+
+          <p class="notice notice-error" data-form-error hidden></p>
+
+          <div class="actions">
+            <button type="submit" class="btn btn-primary" data-submit>Sign and submit consent</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+
+    <section id="result" class="card" hidden>
+      <h2>Thank you, your consent has been received</h2>
+      <p><strong>Save your assignment token.</strong> You need it to request withdrawal by November 28, 2026.</p>
+      <p class="token-label">Your assignment token</p>
+      <p class="token" data-token></p>
+      <div class="actions">
+        <button type="button" class="btn btn-secondary" data-copy>Copy token</button>
+        <a class="btn btn-secondary" data-download href="#" download="SPARK_consent_signed.pdf">Download your signed
+          consent</a>
+      </div>
+      <h2>Step 3: Complete the questionnaire</h2>
+      <p>The token is already filled in on the first question. Please leave it unchanged.</p>
+      <div class="actions">
+        <a class="btn btn-primary" data-survey-link href="#">Continue to the questionnaire</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap muted small">
+      Questions: <a href="mailto:alireza.nasirianfar@umontreal.ca">alireza.nasirianfar@umontreal.ca</a> ·
+      <a href="mailto:madjda.fares@umontreal.ca">madjda.fares@umontreal.ca</a>
+    </div>
+  </footer>
+</body>
+</html>
