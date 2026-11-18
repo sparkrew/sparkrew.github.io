@@ -2,7 +2,7 @@ import * as pdfjsLib from "./vendor/pdf.min.mjs";
 
 const CONFIG = {
   // Apps Script web app URL ("Deploy > New deployment > Web app"), ending in /exec.
-  endpoint: "",
+  endpoint: "https://script.google.com/macros/s/AKfycbx4vpSblbhI0d9mKWAO6fG_G3XbxN-mnfBkCORJbeKNoYbICYDjuwTjcuBKaiftv5Lr1w/exec",
   consentVersion: "B-2026-11-12",
   consentUrl: "assets/consent.pdf",
   timeZone: "America/Toronto",
